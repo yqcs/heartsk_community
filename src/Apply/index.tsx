@@ -29,7 +29,7 @@ const Apply = () => {
                       <a
                         target={"_blank"}
                         href={
-                          "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest/HeartsK_windows_amd64.zip"
+                          "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest1.0.1/HeartsK_windows_amd64.zip"
                         }
                         className={styles.download}
                       >
@@ -38,7 +38,7 @@ const Apply = () => {
                       <a
                         target={"_blank"}
                         href={
-                          "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest/HeartsK_windows_386.zip"
+                          "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest1.0.1/HeartsK_windows_386.zip"
                         }
                         className={styles.download}
                       >
@@ -63,7 +63,7 @@ const Apply = () => {
                     <div className={styles.remark}>MacOS</div>
                     <a
                       href={
-                        "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest/HeartsK_darwin_amd64.zip"
+                        "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest1.0.1/HeartsK_darwin_amd64.zip"
                       }
                       target={"_blank"}
                       className={styles.download}
@@ -72,7 +72,7 @@ const Apply = () => {
                     </a>
                     <a
                       href={
-                        "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest/HeartsK_darwin_arm64.zip"
+                        "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest1.0.1/HeartsK_darwin_arm64.zip"
                       }
                       target={"_blank"}
                       className={styles.download}
@@ -98,7 +98,7 @@ const Apply = () => {
                     <div className={styles.remark}>UOS, Deepin, Ubuntu</div>
                     <a
                       href={
-                        "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest/HeartsK_linux_amd64.zip"
+                        "https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest1.0.1/HeartsK_linux_amd64.zip"
                       }
                       target={"_blank"}
                       className={styles.download}
