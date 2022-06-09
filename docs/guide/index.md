@@ -30,7 +30,7 @@ nav:
 Linux amd64 运行示例：
 
 ```bash
-$ wget https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@Latest/HeartsK_linux_amd64.zip
+$ wget https://github.com/yqcs/heartsk_community/releases/download/LOWBUG@1.0.1/HeartsK_linux_amd64.zip
 $ unzip HeartsK_linux_amd64.zip
 $ cd HeartsK_linux_amd64
 $ chmod +x HeartsK
