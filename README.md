@@ -1,1 +1,1 @@
-<code src="../src/index.tsx" inline />
+docs/guide/index.md
