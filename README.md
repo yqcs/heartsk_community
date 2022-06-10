@@ -197,14 +197,14 @@ $ ./HeartsK
 
 ##### 字符串处理
 
-| 函数名    | 等效代码                                                                     | 说明                                                |
-| --------- | ---------------------------------------------------------------------------- | --------------------------------------------------- |
-| contains  | `strings.Contains(string(v1), string(v2))`                                   | 判断 v1 是否包含 v2，返回 bool 类型结果             |
-| bContains | `strings.Contains(strings.ToLower(string(v1)), strings.ToLower(string(v2)))` | 判断 v1 是否包含 v2，返回 bool 类型结果，忽略大小写 |
-| subString | `func subString(str string, start , end int) return string `                 | 截取指定下标的字符串                                |
-| hasPrefix | `strings.HasPrefix(string(v1), string(v2))`                                  | 判断字符串 v1 是否以 v2 开头                        |
-| hasSuffix | `strings.HasSuffix(string(v1), string(v2))`                                  | 判断字符串 v1 是否以 v2 结尾                        |
-| replace   | `strings.ReplaceAll(string(v1), string(v2), string(v3))`                     | 将 v1 中的 v2 替换为 v3，返回替换后的 v1            |
+| 函数名     | 等效代码                                                                     | 说明                                                |
+| ---------- | ---------------------------------------------------------------------------- | --------------------------------------------------- |
+| noContains | `!strings.Contains(string(v1), string(v2))`                                  | 判断 v1 是否包含 v2，返回 bool 类型结果             |
+| bContains  | `strings.Contains(strings.ToLower(string(v1)), strings.ToLower(string(v2)))` | 判断 v1 是否包含 v2，返回 bool 类型结果，忽略大小写 |
+| subString  | `func subString(str string, start , end int) return string `                 | 截取指定下标的字符串                                |
+| hasPrefix  | `strings.HasPrefix(string(v1), string(v2))`                                  | 判断字符串 v1 是否以 v2 开头                        |
+| hasSuffix  | `strings.HasSuffix(string(v1), string(v2))`                                  | 判断字符串 v1 是否以 v2 结尾                        |
+| replace    | `strings.ReplaceAll(string(v1), string(v2), string(v3))`                     | 将 v1 中的 v2 替换为 v3，返回替换后的 v1            |
 
 ##### 字节数组处理
 
@@ -227,7 +227,7 @@ $ ./HeartsK
 
 | 函数名   | 等效代码                                     | 说明                                                                          |
 | -------- | -------------------------------------------- | ----------------------------------------------------------------------------- |
-| matches  | `regexp.MatchString(string(v1), string(v2))` | 正则表达式 v1 来匹配 v2，返回 bool 类型匹配结果                               |
+| sMatches | `regexp.MatchString(string(v1), string(v2))` | 正则表达式 v1 来匹配 v2，返回 bool 类型匹配结果                               |
 | bMatches | `regexp.Match(string(v1), v2)`               | 正则表达式 v1 来匹配 v2，返回 bool 类型匹配结果，不同的是 bMatches 匹配字节流 |
 
 ##### 随机数
