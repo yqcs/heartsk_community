@@ -15,10 +15,10 @@ const Brand = () => {
           </div>
           <div className={styles.homeDiv}>
             <div className={styles.phone}>
-              <img src="../../public/phone_home.png" alt="phone home" />
+              <img src="/static/phone_home.png" alt="phone home" />
             </div>
             <div className={styles.pc}>
-              <img src="../../public/pc_home.png" alt="pc home" />
+              <img src="/static/pc_home.png" alt="pc home" />
             </div>
           </div>
         </div>
@@ -31,10 +31,10 @@ const Brand = () => {
           </div>
           <div className={styles.homeDiv}>
             <div className={styles.cli}>
-              <img src="../../public/cli.png" alt="cli" />
+              <img src="/static/cli.png" alt="cli" />
             </div>
             <div className={styles.web}>
-              <img src="../../public/pc2.png" alt="pc home" />
+              <img src="/static/pc2.png" alt="pc home" />
             </div>
           </div>
         </div>

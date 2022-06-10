@@ -7,9 +7,9 @@ export default defineConfig({
   hash: true,
   title: "Hearts K - App",
   mode: "site",
-  logo: "../../public/scan.png",
-  publicPath: "/public/",
-  favicon: "../../public/scan.svg",
+  logo: "/static/scan.png",
+  runtimePublicPath: true,
+  favicon: "/static/scan.svg",
   exportStatic: {},
   extraBabelPlugins: [
     [

@@ -23,7 +23,7 @@ const Banner = () => {
             <Col md={12}>
               <img
                 className={styles.heatImg}
-                src="../../public/pc_home.png"
+                src="/static/pc_home.png"
                 alt={"home"}
               />
             </Col>
