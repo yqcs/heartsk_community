@@ -9,7 +9,7 @@ nav:
 
 # Hearts K 企业资产发现与脆弱性检查工具
 
-![pc_home](../../public/pc_home.png)
+![pc_home](../../public/static/pc_home.png)
 <Alert type="warning">
 本工具仅面向合法授权的企业资产风险检测，请严格遵守法律规定，不得危害国家安全、公共利益，不得损害个人、组织的合法权益，否则应自行承担所引起的一切法律责任。
 </Alert>
@@ -43,7 +43,7 @@ $ ./HeartsK
 
 运行之后访问`http://yourIP:80`即可进入登录页，使用-port 参数可指定端口。
 
-<img src="../../public/guide/login.png" alt="login Page"/>
+<img src="../../public/static/guide/login.png" alt="login Page"/>
 
 系统内置了两个权限的账户，管理员与具有较高权限的高级用户，默认均是启用状态。
 
@@ -60,7 +60,7 @@ $ ./HeartsK -h
 $ ./HeartsK -t 127.0.0.1 -p 1-500,3000-6000
 ```
 
-<img src="../../public/guide/cli.png" alt="cli Page"/>
+<img src="../../public/static/guide/cli.png" alt="cli Page"/>
 
 ### Linux For ARM（Android）
 
@@ -90,7 +90,7 @@ $ ./HeartsK
 > 无 ROOT 权限：执行`pkg install proot resolv-conf && proot -b $PREFIX/etc/resolv.conf:/etc/resolv.conf ./heartsk -port 8000`（运行参数）
 > 至此，便可成功启动，在手机浏览器访问首页：http://127.0.0.1:8000 但是并不代表可以完整使用了，以非 ROOT 权限执行任务时切记将存活检测切换为 Ping 模式！！
 
-<img src="../../public/guide/phone.jpg" alt="phone Page" width="20%"/>
+<img src="../../public/static/guide/phone.jpg" alt="phone Page" width="20%"/>
 
 ## 系统结构
 
@@ -146,7 +146,7 @@ $ ./HeartsK
 >
 > 目录扫描：扫描指定 URL 可能存在安全风险的资源地址。
 
-![img_1.png](../../public/guide/infoGet.png)
+![img_1.png](../../public/static/guide/infoGet.png)
 
 ## 任务管理
 
@@ -159,7 +159,7 @@ $ ./HeartsK
 > - 扫描子域：从互联网检测目标的子域名，此选项需具有联网权限。
 > - 目录扫描：扫描所有 HTTP/HTTPS 协议 WEB 服务可能存在安全风险的资源地址。
 
-![img_1.png](../../public/guide/creatTask.png)
+![img_1.png](../../public/static/guide/creatTask.png)
 
 ## 扫描配置
 
@@ -177,13 +177,13 @@ $ ./HeartsK
 
 在执行子域名扫描以及信息收集的模糊搜索任务时，会依赖外界平台。请配置相关平台的身份验证信息，以保证数据的完整性。
 
-![img.png](../../public/guide/other.png)
+![img.png](../../public/static/guide/other.png)
 
 ### 字典配置
 
 系统内置默认账户、密码组合。如果密码列里出现{user}占位符，则会被替换成用户名。
 
-![img.png](../../public/guide/dict.png)
+![img.png](../../public/static/guide/dict.png)
 
 ## 插件编写
 
@@ -191,7 +191,7 @@ $ ./HeartsK
 
 请确保程序具有读写权限以及根目录存在 exploits 文件夹，插件名即是漏洞名称.yaml
 
-![img.png](../../public/guide/pluginInfo.png)
+![img.png](../../public/static/guide/pluginInfo.png)
 
 #### 规则及语法
 
@@ -200,7 +200,7 @@ $ ./HeartsK
 - AND/OR 按钮：如果选中 AND，需要每个请求的响应均符合所设定的响应规则，如果为 OR 则只需符合其中一项即判定为具有该漏洞。
 
 **注**：如果发送的请求是 Post Form 请求，Params 参数须先以 URL Encoded 编码转换。
-![img.png](../../public/guide/pluginRule.png)
+![img.png](../../public/static/guide/pluginRule.png)
 
 #### 变量引擎
 
@@ -267,8 +267,8 @@ import (
 func init() {
 	//payload
   path := []string{
-    "../../public/plugins/alertGroups/../../../../../../../../etc/passwd",
-    "../../public/plugins/alertlist/../../../../../../../../etc/passwd"}
+    "../../public/static/plugins/alertGroups/////etc/passwd",
+    "../../public/static/plugins/alertlist/////etc/passwd"}
 
   //注册插件
   models.Register(models.NewExploit{Info: models.AppVulInfo{
