@@ -13,7 +13,7 @@ const Footer = () => {
             <img
               width="150"
               height={"150"}
-              src="/static/wx_qrcode.jpg"
+              src="../../public/wx_qrcode.jpg"
               alt="logo"
             />
             <div>
@@ -80,7 +80,7 @@ const Footer = () => {
                 <div>
                   <Popover
                     content={
-                      <img width="120" src="/static/wx.jpg" alt={"wx"} />
+                      <img width="120" src="../../public/wx.jpg" alt={"wx"} />
                     }
                   >
                     <div

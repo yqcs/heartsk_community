@@ -29,4 +29,4 @@ sidemenu: false
 
 ### 联系
 
-<img src="/static/wx.jpg" width="110px"/>
+<img src="../../public/wx.jpg" width="110px"/>
