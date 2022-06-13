@@ -11,6 +11,12 @@ sidemenu: false
 系统可能会有部分功能不稳定，请谨慎使用；如果体验后对系统有任何建议或合作想法，欢迎在讨论群中进行反馈和交流(<a href="https://github.com/yqcs/heartsk_community/issues">issues</a>)❤
 </Alert>
 
+#### LOW BUG(1.0.2)-2022-06-12：
+
+- 更新 CEL 语法
+- 优化服务端性能
+- 更新 UI
+
 #### LOW BUG(1.0.1)-2022-06-09：
 
 - 新增 favicon.ico 显示
@@ -27,6 +33,6 @@ sidemenu: false
 - 支持自定义 JSON、YAML、GO 三种类型插件
 - 内置测试版 License 及公钥文件
 
-### 联系
+### 联系/加群
 
 <img src="/static/wx.jpg" width="110px"/>
