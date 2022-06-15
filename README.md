@@ -340,3 +340,5 @@ func SendDialTimeout(network, address string, timeout time.Duration) (net.Conn, 
 编写好之后放到程序根目录下 exploits 文件夹下，重启系统即可加载插件。
 
 提交到我们：https://github.com/yqcs/heartsk_community/issues
+
+<img src="public/static/guide/group.png" width="250px"/>
