@@ -1,3 +1,5 @@
+# 此项目已关闭，请前往 <a href="https://github.com/yqcs/prismx">prismx</a>
+
 # Hearts K 企业资产发现与脆弱性检查工具
 
 ![pc_home](public/static/pc_home.png)
